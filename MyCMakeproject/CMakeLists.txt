@@ -6,5 +6,3 @@ include(CTest)
 enable_testing()
 
 add_executable(hello q.cpp)
-
-set_property(TARGET hello PROPERTY CXX_STANDARD 17)
