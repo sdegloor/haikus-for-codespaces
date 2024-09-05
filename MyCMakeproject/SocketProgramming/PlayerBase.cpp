@@ -1,4 +1,5 @@
 #include"PlayerBase.hpp"
+
 PlayerBuilder::PlayerBuilder() {}
 PlayerBuilder::PlayerBuilder(string name, int msg_cout, string msg):name(name), messageCount(msg_cout),message(msg)
 {}
@@ -42,6 +43,8 @@ PlayerBuilder PlayerBuilder::InitializeMessage()
 void PlayerBuilder::increaseMessageCount() {
     messageCount++;
 }
+//Prepare message for sending a reply based on Client/Server.
+//This is a common method for both client/server.
 string  PlayerBuilder::getResponseMsg(PlayerBuilder *sender)
 {
     string str;

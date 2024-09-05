@@ -4,13 +4,15 @@ MainAPI::MainAPI(){ }
 void MainAPI::startClient()
 {
     cout<<"Initializing a Client"<<endl;
-	new ClientSocket();
+	//new ClientSocket();
+    std::unique_ptr<ClientSocket>(new ClientSocket());
 }
 void MainAPI::startServer()
 {
 	cout<<"Initializing a Server"<< endl;
         
-    new ServerSocket();
+    //new ServerSocket();
+    std::unique_ptr<ServerSocket>(new ServerSocket());
         
 }
 

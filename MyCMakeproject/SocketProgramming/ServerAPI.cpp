@@ -33,7 +33,6 @@ void ServerSocket::communicate(PlayerBuilder *player)
     {
         if(player->getMessageCount() >= messageCount)
         {
-            cout<<"Exiting Application in Server"<<endl;
             ExitApplication();
             return;
         }
@@ -49,7 +48,7 @@ void ServerSocket::communicate(PlayerBuilder *player)
             string msg = player->getResponseMsg(player);
             if((send(acceptSocket, msg.c_str(), strlen(msg.c_str()), 0)) > 0)
             {
-                cout<<"Message sent from Server successfully: "<<endl;
+                cout<<"Message sent from Server successfully: "<<msg.c_str()<<endl;
             }
         }
     }

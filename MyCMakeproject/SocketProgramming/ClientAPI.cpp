@@ -21,7 +21,7 @@ ClientSocket::ClientSocket()
         cout << "Client: Connect() is OK!" << endl;
         cout << "Client: Can start sending and receiving data..." << endl;
     }
-
+    //Initialize Player details.
     player = new PlayerBuilder();
     player->setName(player2);
     player->InitializeMessage();
@@ -41,16 +41,15 @@ void ClientSocket::communicate(PlayerBuilder *player)
             int BytesSent = send(clientSocket, msg.c_str(), strlen(msg.c_str()), 0);
             if ( BytesSent )
             {
-                cout<<"Message sent from Client successfully"<<endl;
+                cout<<"Message sent from Client successfully"<<msg.c_str()<<endl;
             }
         }
         if((recv(clientSocket, buffer, sizeof(buffer), 0)) > 0)
         {
             rcv_msg_cnt++;
-            cout<<"Received message from server in Client:"<<buffer<<"rcv msg cnt"<<rcv_msg_cnt<<endl;
+            cout<<"Received message from server in Client:"<<buffer<<endl;
             if(player->getMessageCount() >= 10 && rcv_msg_cnt >= messageCount)
             {
-                cout<<"Exiting Application in Client"<<endl;
                 ExitApplication();
                 return;
             }

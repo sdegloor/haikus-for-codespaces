@@ -6,13 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
+iostream
+-
+cstring
+-
+netinet/in.h
+-
+sys/socket.h
+-
+unistd.h
+-
+arpa/inet.h
+-
 PlayerBase.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
+ClientAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
+BaseSocketAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 string
 -
 iostream
 -
+atomic
+-
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.cpp
+ServerAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
+BaseSocketAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 
