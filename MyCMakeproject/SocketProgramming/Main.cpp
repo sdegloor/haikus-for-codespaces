@@ -16,12 +16,10 @@ void MainAPI::startServer()
 
 int main(int argc, char *argv[])
 {
-    cout<<"Calling from main"<<argc<<(argv[1]=="thread")<<endl;
     if(argc !=2)
         return 0;
     if (argv[1]==std::string("thread"))
     {
-        cout<<"Number of arguements:"<<argc<<argv[1]<<endl;
         // create two threads of client and server within a process.
         thread t1(&MainAPI::startServer);
         sleep(100);
