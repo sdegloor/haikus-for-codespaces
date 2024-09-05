@@ -21,7 +21,7 @@ ClientSocket::ClientSocket()
     }
 
     player = new PlayerBuilder();
-    player->setName("Initiator");
+    player->setName(player2);
     player->InitializeMessage();
     player= player->getPlayer();
             

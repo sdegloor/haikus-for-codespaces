@@ -9,14 +9,6 @@
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 iostream
 -
-Winsock2.h
--
-winsock2.h
--
-ws2tcpip.h
--
-tchar.h
--
 cstring
 -
 netinet/in.h
@@ -29,6 +21,10 @@ arpa/inet.h
 -
 PlayerBase.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
+ClientAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
 BaseSocketAPI.hpp
@@ -48,11 +44,19 @@ ServerAPI.hpp
 thread
 -
 
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
+PlayerBase.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
+
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 string
 -
 iostream
 -
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.cpp
+ServerAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
 BaseSocketAPI.hpp

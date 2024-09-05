@@ -1,7 +1,6 @@
 #ifndef MAINAPI_H
 #define MAINAPI_H
 
-#include<iostream>
 #include"ClientAPI.hpp"
 #include"ServerAPI.hpp"
 #include<thread>

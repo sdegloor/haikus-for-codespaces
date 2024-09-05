@@ -18,7 +18,7 @@ ServerSocket::ServerSocket()
     listen(serverSocket, 5);
             
     player = new PlayerBuilder();
-    player->setName("MasterPlayer");
+    player->setName(player1);
     player->InitializeMessage();
     player= player->getPlayer();
             
