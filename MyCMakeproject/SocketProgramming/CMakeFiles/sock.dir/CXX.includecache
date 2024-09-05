@@ -22,10 +22,6 @@ arpa/inet.h
 PlayerBase.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
-ClientAPI.hpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
-
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
 BaseSocketAPI.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
@@ -35,18 +31,12 @@ MainAPI.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/MainAPI.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/MainAPI.hpp
-iostream
--
 ClientAPI.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
 ServerAPI.hpp
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
 thread
 -
-
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
-PlayerBase.hpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 string
