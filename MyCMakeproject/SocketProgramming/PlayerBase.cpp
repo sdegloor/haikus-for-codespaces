@@ -44,7 +44,13 @@ void PlayerBuilder::increaseMessageCount() {
 }
 string  PlayerBuilder::getResponseMsg(PlayerBuilder *sender)
 {
-    string str = sender->getMessage() + " " + to_string(sender->getMessageCount());
+    string str;
+    if(!sender->getName().compare("MasterPlayer"))
+    {
+        str = sender->getMessage() + " " + to_string(sender->getMessageCount());
+    } else {
+        str = sender->getMessage();
+    }
     sender->increaseMessageCount();
     return str;
 }
