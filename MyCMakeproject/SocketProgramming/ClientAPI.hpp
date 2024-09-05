@@ -3,7 +3,7 @@
 #define CLIENTAPI_H
 #include"BaseSocketAPI.hpp"
 
-string player2 = "Initiator";
+extern string player2;
 class ClientSocket:public SocketAPI
 {
     public:

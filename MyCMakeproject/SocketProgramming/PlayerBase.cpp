@@ -36,7 +36,7 @@ PlayerBuilder* PlayerBuilder::getPlayer()
  }
 PlayerBuilder PlayerBuilder::InitializeMessage()
 {
-    this->message="Greetings There";
+    this->message="Hello There";
     return *this;
 }
 void PlayerBuilder::increaseMessageCount() {

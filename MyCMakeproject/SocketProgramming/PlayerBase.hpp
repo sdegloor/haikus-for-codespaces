@@ -10,7 +10,7 @@ class PlayerBuilder
 {
     private:
         string name;
-        int messageCount = 0;
+        int messageCount = 1;
         string message;
         PlayerBuilder *player;
     public:

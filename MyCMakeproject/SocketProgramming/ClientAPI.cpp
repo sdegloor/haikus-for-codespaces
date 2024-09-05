@@ -1,6 +1,8 @@
 
 #include"ClientAPI.hpp"
 
+string player2 = "Initiator";
+
 ClientSocket::ClientSocket()
 {
     // creating socket
@@ -30,9 +32,10 @@ ClientSocket::ClientSocket()
 void ClientSocket::communicate(PlayerBuilder *player)
 {   
     char buffer[1024]={ 0 };
+    int rcv_msg_cnt = 0;
     while(1)
     {
-        if(player->getMessageCount() < 10)
+        if(player->getMessageCount() <= messageCount)
         {
             string msg = player->getResponseMsg(player);
             int BytesSent = send(clientSocket, msg.c_str(), strlen(msg.c_str()), 0);
@@ -43,8 +46,9 @@ void ClientSocket::communicate(PlayerBuilder *player)
         }
         if((recv(clientSocket, buffer, sizeof(buffer), 0)) > 0)
         {
-            cout<<"Received mesage from server in Client:"<<buffer<<"len:"<<sizeof(buffer)<<endl;
-            if(player->getMessageCount() >= 10)
+            rcv_msg_cnt++;
+            cout<<"Received message from server in Client:"<<buffer<<"rcv msg cnt"<<rcv_msg_cnt<<endl;
+            if(player->getMessageCount() >= 10 && rcv_msg_cnt >= messageCount)
             {
                 cout<<"Exiting Application in Client"<<endl;
                 ExitApplication();

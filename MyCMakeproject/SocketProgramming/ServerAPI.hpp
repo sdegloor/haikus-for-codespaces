@@ -3,7 +3,7 @@
 #define SERVERAPI_H
 #include"BaseSocketAPI.hpp"
 
-string player1 = "MasterPlayer";
+extern string player1;
 
 class ServerSocket:public SocketAPI
 {

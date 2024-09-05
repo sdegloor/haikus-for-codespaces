@@ -1,6 +1,8 @@
 
 #include"ServerAPI.hpp"
 
+string player1 = "MasterPlayer";
+
 ServerSocket::ServerSocket()
 {
     // creating socket
@@ -29,7 +31,7 @@ void ServerSocket::communicate(PlayerBuilder *player)
     char buffer[1024]={ 0 };
     while(1)
     {
-        if(player->getMessageCount() >= 10)
+        if(player->getMessageCount() >= messageCount)
         {
             cout<<"Exiting Application in Server"<<endl;
             ExitApplication();
@@ -43,11 +45,11 @@ void ServerSocket::communicate(PlayerBuilder *player)
                 
         while((recv(acceptSocket, buffer, sizeof(buffer), 0)) >0)
         {
-            cout<<"Received mesage from client in Server:"<<buffer<<"len:"<<sizeof(buffer)<<endl;
+            cout<<"Received message from client in Server:"<<buffer<<endl;
             string msg = player->getResponseMsg(player);
             if((send(acceptSocket, msg.c_str(), strlen(msg.c_str()), 0)) > 0)
             {
-                cout<<"Message sent from Server successfully:"<<msg.c_str()<<endl;
+                cout<<"Message sent from Server successfully: "<<endl;
             }
         }
     }
