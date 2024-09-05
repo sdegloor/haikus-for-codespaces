@@ -1,12 +1,6 @@
 #ifndef BASESOCKETAPI_H
 #define BASESOCKETAPI_H
 #include <iostream>
-#ifdef _WIN32
-#include <Winsock2.h>
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#include <tchar.h>
-#endif
 #include <cstring>
 #include <netinet/in.h>
 #include <sys/socket.h>
@@ -14,7 +8,7 @@
 #include <arpa/inet.h>
 #include "PlayerBase.hpp"
 
-using namespace std;
+const int messageCount = 10;
 
 class SocketAPI 
 {  
