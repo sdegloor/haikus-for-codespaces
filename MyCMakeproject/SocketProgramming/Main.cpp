@@ -14,26 +14,35 @@ void MainAPI::startServer()
         
 }
 
-int main()
+int main(int argc, char *argv[])
 {
-    cout<<"Calling from main"<<endl;
-    //MainAPI inv;
-    thread t1(&MainAPI::startServer);
-    
-    thread t2(&MainAPI::startClient);
-    t1.join();
-    t2.join();
-    //MainAPI::startClient();
-    // create two processes of client and server
-    /*pid_t pid = fork();
-    if (pid != 0)
+    cout<<"Calling from main"<<argc<<(argv[1]=="thread")<<endl;
+    if(argc !=2)
+        return 0;
+    if (argv[1]==std::string("thread"))
     {
-        MainAPI::startServer();
+        cout<<"Number of arguements:"<<argc<<argv[1]<<endl;
+        // create two threads of client and server within a process.
+        thread t1(&MainAPI::startServer);
+        sleep(100);
+        thread t2(&MainAPI::startClient);
+        t1.join();
+        t2.join();
     }
-    //---------- CLIENT PROCESS
-    else
+    else if(argv[1]==std::string("process"))
     {
-        MainAPI::startClient();
-    }*/
+        // create two processes of client and server
+        pid_t pid = fork();
+        if (pid != 0)
+        {
+            MainAPI::startServer();
+        }
+        //---------- CLIENT PROCESS
+        else {
+            MainAPI::startClient();
+        }
+    }
+    else
+        cout<<"Please give proper input ex: ./sock thread or ./sock process"<<endl;
     return 0;
 }
