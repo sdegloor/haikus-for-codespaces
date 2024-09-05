@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/sock.dir/BaseSocketAPI.cpp.o CMakeFiles/sock.dir/ClientAPI.cpp.o CMakeFiles/sock.dir/ServerAPI.cpp.o CMakeFiles/sock.dir/PlayerBase.cpp.o CMakeFiles/sock.dir/Main.cpp.o  -o sock  -lpthread 
+/usr/bin/c++     CMakeFiles/sock.dir/ClientAPI.cpp.o CMakeFiles/sock.dir/ServerAPI.cpp.o CMakeFiles/sock.dir/PlayerBase.cpp.o CMakeFiles/sock.dir/Main.cpp.o  -o sock  -lpthread 

@@ -5,6 +5,6 @@ project(socket_programming)
 include(CTest)
 enable_testing()
 
-add_executable(sock BaseSocketAPI.cpp ClientAPI.cpp ServerAPI.cpp PlayerBase.cpp Main.cpp)
+add_executable(sock BaseSocketAPI.hpp ClientAPI.hpp ServerAPI.hpp PlayerBase.hpp MainAPI.hpp ClientAPI.cpp ServerAPI.cpp PlayerBase.cpp Main.cpp)
 
 TARGET_LINK_LIBRARIES(sock pthread)

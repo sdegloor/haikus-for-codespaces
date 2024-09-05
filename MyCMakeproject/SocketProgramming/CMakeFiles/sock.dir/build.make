@@ -57,22 +57,9 @@ include CMakeFiles/sock.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/sock.dir/flags.make
 
-CMakeFiles/sock.dir/BaseSocketAPI.cpp.o: CMakeFiles/sock.dir/flags.make
-CMakeFiles/sock.dir/BaseSocketAPI.cpp.o: BaseSocketAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sock.dir/BaseSocketAPI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sock.dir/BaseSocketAPI.cpp.o -c /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp
-
-CMakeFiles/sock.dir/BaseSocketAPI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sock.dir/BaseSocketAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp > CMakeFiles/sock.dir/BaseSocketAPI.cpp.i
-
-CMakeFiles/sock.dir/BaseSocketAPI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sock.dir/BaseSocketAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp -o CMakeFiles/sock.dir/BaseSocketAPI.cpp.s
-
 CMakeFiles/sock.dir/ClientAPI.cpp.o: CMakeFiles/sock.dir/flags.make
 CMakeFiles/sock.dir/ClientAPI.cpp.o: ClientAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sock.dir/ClientAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sock.dir/ClientAPI.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sock.dir/ClientAPI.cpp.o -c /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
 
 CMakeFiles/sock.dir/ClientAPI.cpp.i: cmake_force
@@ -85,7 +72,7 @@ CMakeFiles/sock.dir/ClientAPI.cpp.s: cmake_force
 
 CMakeFiles/sock.dir/ServerAPI.cpp.o: CMakeFiles/sock.dir/flags.make
 CMakeFiles/sock.dir/ServerAPI.cpp.o: ServerAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sock.dir/ServerAPI.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sock.dir/ServerAPI.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sock.dir/ServerAPI.cpp.o -c /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.cpp
 
 CMakeFiles/sock.dir/ServerAPI.cpp.i: cmake_force
@@ -98,7 +85,7 @@ CMakeFiles/sock.dir/ServerAPI.cpp.s: cmake_force
 
 CMakeFiles/sock.dir/PlayerBase.cpp.o: CMakeFiles/sock.dir/flags.make
 CMakeFiles/sock.dir/PlayerBase.cpp.o: PlayerBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sock.dir/PlayerBase.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sock.dir/PlayerBase.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sock.dir/PlayerBase.cpp.o -c /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
 
 CMakeFiles/sock.dir/PlayerBase.cpp.i: cmake_force
@@ -111,7 +98,7 @@ CMakeFiles/sock.dir/PlayerBase.cpp.s: cmake_force
 
 CMakeFiles/sock.dir/Main.cpp.o: CMakeFiles/sock.dir/flags.make
 CMakeFiles/sock.dir/Main.cpp.o: Main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sock.dir/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sock.dir/Main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sock.dir/Main.cpp.o -c /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/Main.cpp
 
 CMakeFiles/sock.dir/Main.cpp.i: cmake_force
@@ -124,7 +111,6 @@ CMakeFiles/sock.dir/Main.cpp.s: cmake_force
 
 # Object files for target sock
 sock_OBJECTS = \
-"CMakeFiles/sock.dir/BaseSocketAPI.cpp.o" \
 "CMakeFiles/sock.dir/ClientAPI.cpp.o" \
 "CMakeFiles/sock.dir/ServerAPI.cpp.o" \
 "CMakeFiles/sock.dir/PlayerBase.cpp.o" \
@@ -133,14 +119,13 @@ sock_OBJECTS = \
 # External object files for target sock
 sock_EXTERNAL_OBJECTS =
 
-sock: CMakeFiles/sock.dir/BaseSocketAPI.cpp.o
 sock: CMakeFiles/sock.dir/ClientAPI.cpp.o
 sock: CMakeFiles/sock.dir/ServerAPI.cpp.o
 sock: CMakeFiles/sock.dir/PlayerBase.cpp.o
 sock: CMakeFiles/sock.dir/Main.cpp.o
 sock: CMakeFiles/sock.dir/build.make
 sock: CMakeFiles/sock.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable sock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable sock"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

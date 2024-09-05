@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BASESOCKETAPI_H
+#define BASESOCKETAPI_H
 #include <iostream>
 #ifdef _WIN32
 #include <Winsock2.h>
@@ -11,7 +12,7 @@
 #include <sys/socket.h>
 #include <unistd.h>
 #include <arpa/inet.h>
-#include "PlayerBase.cpp"
+#include "PlayerBase.hpp"
 
 using namespace std;
 
@@ -19,8 +20,9 @@ class SocketAPI
 {  
     public:
         int clientSocket;
+        int acceptSocket;
+        int serverSocket;
         PlayerBuilder *player;
-        //PlayerBuilder *sender;
         SocketAPI()
         {
 
@@ -29,3 +31,4 @@ class SocketAPI
         virtual void ExitApplication() = 0;
 
 };
+#endif

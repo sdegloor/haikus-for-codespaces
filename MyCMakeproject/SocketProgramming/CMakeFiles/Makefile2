@@ -858,12 +858,12 @@ CMakeFiles/ContinuousSubmit.dir/clean:
 CMakeFiles/sock.dir/all:
 	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/depend
 	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target sock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles --progress-num=1,2,3,4,5 "Built target sock"
 .PHONY : CMakeFiles/sock.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sock.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles 0
 .PHONY : CMakeFiles/sock.dir/rule

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 iostream
 -
 Winsock2.h
@@ -27,30 +27,42 @@ unistd.h
 -
 arpa/inet.h
 -
-PlayerBase.cpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
+PlayerBase.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
-BaseSocketAPI.cpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp
+ClientAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
+BaseSocketAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/Main.cpp
+MainAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/MainAPI.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/MainAPI.hpp
 iostream
 -
-ClientAPI.cpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp
-ServerAPI.cpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.cpp
+ClientAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.hpp
+ServerAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
 thread
 -
 
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.hpp
 string
 -
 iostream
 -
 
 /workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.cpp
-BaseSocketAPI.cpp
-/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp
+ServerAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
+
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ServerAPI.hpp
+BaseSocketAPI.hpp
+/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.hpp
 

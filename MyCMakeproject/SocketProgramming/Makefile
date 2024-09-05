@@ -498,33 +498,6 @@ sock/fast:
 	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/build
 .PHONY : sock/fast
 
-BaseSocketAPI.o: BaseSocketAPI.cpp.o
-
-.PHONY : BaseSocketAPI.o
-
-# target to build an object file
-BaseSocketAPI.cpp.o:
-	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/BaseSocketAPI.cpp.o
-.PHONY : BaseSocketAPI.cpp.o
-
-BaseSocketAPI.i: BaseSocketAPI.cpp.i
-
-.PHONY : BaseSocketAPI.i
-
-# target to preprocess a source file
-BaseSocketAPI.cpp.i:
-	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/BaseSocketAPI.cpp.i
-.PHONY : BaseSocketAPI.cpp.i
-
-BaseSocketAPI.s: BaseSocketAPI.cpp.s
-
-.PHONY : BaseSocketAPI.s
-
-# target to generate assembly for a file
-BaseSocketAPI.cpp.s:
-	$(MAKE) -f CMakeFiles/sock.dir/build.make CMakeFiles/sock.dir/BaseSocketAPI.cpp.s
-.PHONY : BaseSocketAPI.cpp.s
-
 ClientAPI.o: ClientAPI.cpp.o
 
 .PHONY : ClientAPI.o
@@ -671,9 +644,6 @@ help:
 	@echo "... ContinuousTest"
 	@echo "... ContinuousSubmit"
 	@echo "... sock"
-	@echo "... BaseSocketAPI.o"
-	@echo "... BaseSocketAPI.i"
-	@echo "... BaseSocketAPI.s"
 	@echo "... ClientAPI.o"
 	@echo "... ClientAPI.i"
 	@echo "... ClientAPI.s"

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/sock.dir/BaseSocketAPI.cpp.o"
   "CMakeFiles/sock.dir/ClientAPI.cpp.o"
   "CMakeFiles/sock.dir/Main.cpp.o"
   "CMakeFiles/sock.dir/PlayerBase.cpp.o"

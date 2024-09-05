@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/BaseSocketAPI.cpp" "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles/sock.dir/BaseSocketAPI.cpp.o"
   "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/ClientAPI.cpp" "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles/sock.dir/ClientAPI.cpp.o"
   "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/Main.cpp" "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles/sock.dir/Main.cpp.o"
   "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/PlayerBase.cpp" "/workspaces/haikus-for-codespaces/MyCMakeproject/SocketProgramming/CMakeFiles/sock.dir/PlayerBase.cpp.o"
